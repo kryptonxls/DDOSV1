@@ -77,9 +77,10 @@ def usage():
 	print (''' \033[92m	                       DDOSV1 
 
 			YAPIMCI: KRYPTON.XLS
-			İNSTAGRAM: krypton.xlss \n
+			İNSTAGRAM: krypton.xls \n
 
-	örnek : python3 ddosv1.py -s 172.217.168.206 -p 80 -t 135
+	Kali linux : python3 ddosv1.py -s (172.217.168.206 < örnek ip adres) -p 80 -t 135
+        Termux : python ddosv1.py -s (172.217.168.206 < örnek ip adres) -p 80  -p 80 -t 135
 	-h : help
 	-s : server ip
 	-p : port default 80
